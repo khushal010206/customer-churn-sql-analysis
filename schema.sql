@@ -1,0 +1,23 @@
+CREATE TABLE customer_churn (
+    customerid VARCHAR(20) PRIMARY KEY,
+    gender VARCHAR(10),
+    seniorcitizen INT,
+    partner VARCHAR(5),
+    dependents VARCHAR(5),
+    tenure INT,
+    phoneservice VARCHAR(5),
+    multiplelines VARCHAR(20),
+    internetservice VARCHAR(20),
+    onlinesecurity VARCHAR(20),
+    onlinebackup VARCHAR(20),
+    deviceprotection VARCHAR(20),
+    techsupport VARCHAR(20),
+    streamingtv VARCHAR(20),
+    streamingmovies VARCHAR(20),
+    contract VARCHAR(20),
+    paperlessbilling VARCHAR(5),
+    paymentmethod VARCHAR(50),
+    monthlycharges DECIMAL(10,2),
+    totalcharges DECIMAL(10,2),
+    churn VARCHAR(5)
+);
