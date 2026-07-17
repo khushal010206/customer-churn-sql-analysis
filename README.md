@@ -123,5 +123,5 @@ customer-churn-sql-analysis/
 
 ## 👨‍💻 Author
 
-**Khushal Suthar**
+**Khushal Kumar**
 
